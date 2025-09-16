@@ -13,14 +13,11 @@
       width: 100%;
       height: 100vh;
     }
+
     /* Pulsante AR più grande */
     model-viewer::part(default-ar-button) {
-      transform: scale(4);
-      
-            /* Pulsante AR */
-      --ar-button-size: 48px;
-      --ar-button-bottom: 20px;
-      --ar-button-right: 20px;
+      transform: scale(2) translate(-20px, -20px); /* scala e sposta */
+      transform-origin: bottom right; /* punto di ancoraggio per lo spostamento */
     }
   </style>
 </head>
@@ -33,6 +30,7 @@
   </model-viewer>
 </body>
 </html>
+
 
 
 
