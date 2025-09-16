@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <style>
-      model-viewer (  
-         width: 800px;
-         height: 400px;
-      )
-      <style>
-  <body style= "margin : 0px; overflow: hidden;">
-       <model-viewer 
-           src="https://github.com/Mrdot-d/AR-tag/blob/main/Monkey.glb"
-           ar 
-           >
-       </model-viewer>
-  </body>
+</head>
+<body>
+  <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+                ar ar-modes="webxr scene-viewer quick-look"
+                camera-controls auto-rotate
+                style="width: 100%; height: 100vh;">
+  </model-viewer>
+</body>
 </html>
-
-
 
