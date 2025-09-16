@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <title>Modello AR con Gizmo Gigante</title>
   <style>
     body {
       margin: 0;
@@ -20,17 +19,18 @@
 
     /* Fallback: forza lo scale se la variabile non è supportata */
     model-viewer::part(default-ar-button) {
-      transform: scale(1.5);
+      transform: scale(3);
     }
   </style>
 </head>
 <body>
-  <model-viewer src="https://github.com/Mrdot-d/AR-tag/blob/main/Astronaut.glb"
+  <model-viewer src="https://github.com/Mrdot-d/AR-tag/main/Astronaut.glb"
                 ar ar-modes="webxr scene-viewer quick-look"
                 >
   </model-viewer>
 </body>
 </html>
+
 
 
 
