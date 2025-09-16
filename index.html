@@ -14,9 +14,9 @@
       height: 100vh;
     }
 
-    /* Pulsante AR più grande */
+    /* Pulsante AR grande come prima */
     model-viewer::part(default-ar-button) {
-      transform: scale(2) translate(-20px, -20px); /* scala e sposta */
+      transform: scale(4) translate(-20px, -20px); /* scala e sposta */
       transform-origin: bottom right; /* punto di ancoraggio per lo spostamento */
     }
   </style>
@@ -25,11 +25,11 @@
   <model-viewer src="https://mrdot-d.github.io/AR-tag/Mrc.glb"
                 ar ar-modes="webxr scene-viewer quick-look"
                 camera-controls auto-rotate
-                placement="floor"
-                reveal="interaction">
+                placement="floor">
   </model-viewer>
 </body>
 </html>
+
 
 
 
